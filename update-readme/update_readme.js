@@ -20,8 +20,8 @@ fs.readFile(rawReadmePath, 'utf8', (err, rawReadmeContent) => {
             process.exit(1);
         }
 
-        // Replace {{inject_script}} with the script content
-        const updatedReadmeContent = rawReadmeContent.replace('{{inject_script}}', scriptContent);
+        // Replace all occurrences of {{inject_script}} with the script content
+        const updatedReadmeContent = rawReadmeContent.split('{{inject_script}}').join(scriptContent);
 
         // Write the updated content to README.md
         fs.writeFile(outputReadmePath, updatedReadmeContent, 'utf8', (err) => {
