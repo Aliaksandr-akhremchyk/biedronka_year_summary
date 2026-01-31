@@ -10,12 +10,12 @@ The developer assumes no responsibility for the functionality of the script or i
 3. Go to the "Console" tab in DevTools.
 4. Copy and paste the following script into the console and press `Enter`:
 <details>
-  <summary>Script code to copy</summary>
+  <summary>Kod skryptu do skopiowania</summary>
 
 ```javascript
 {{inject_script}}
 ```
-<details>
+</details>
 
 5. Wait for the script to execute and display the results in the console.
 
@@ -42,9 +42,13 @@ Twórca nie ponosi żadnej odpowiedzialności za działanie skryptu i jego konse
 3. Przejdź do zakładki "Console" w DevTools.
 4. Skopiuj i wklej poniższy skrypt do konsoli i naciśnij `Enter`:
 
+<details>
+  <summary>Kod skryptu do skopiowania</summary>
+
 ```javascript
 {{inject_script}}
 ```
+</details>
 
 5. Poczekaj, aż skrypt się wykona i wyświetli wyniki w konsoli.
 
