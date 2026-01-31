@@ -9,6 +9,8 @@ The developer assumes no responsibility for the functionality of the script or i
 2. Open the developer tools (DevTools) in your browser (usually by pressing `F12` or `Ctrl+Shift+I` / `Cmd+Option+I` on Mac).
 3. Go to the "Console" tab in DevTools.
 4. Copy and paste the following script into the console and press `Enter`:
+<details>
+  <summary>Script code to copy</summary>
 
 ```javascript
 const year = "2025";
@@ -83,6 +85,7 @@ async function calculateYearlyTotals(year) {
 // Call the function with the specified year
 calculateYearlyTotals(year);
 ```
+<details>
 
 5. Wait for the script to execute and display the results in the console.
 
