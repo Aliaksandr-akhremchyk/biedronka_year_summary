@@ -10,7 +10,7 @@ The developer assumes no responsibility for the functionality of the script or i
 3. Go to the "Console" tab in DevTools.
 4. Copy and paste the following script into the console and press `Enter`:
 <details>
-  <summary>Kod skryptu do skopiowania</summary>
+  <summary>Script code to copy </summary>
 
 ```javascript
 const year = "2025";
